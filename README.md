@@ -146,20 +146,9 @@ py --version
 ## 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/Harshitha-310/upi-fraud-analytics
 cd upi_fraud_analytics
 ```
-
-Replace `<YOUR_GITHUB_REPOSITORY_URL>` with the URL of your GitHub repository.
-
-Example:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/upi-fraud-analytics.git
-cd upi-fraud-analytics
-```
-
----
 
 ## 2. Create a Virtual Environment
 
