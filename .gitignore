@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Secrets / environment
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Generated analytics data
+# =========================
+# Keep the project lightweight and reproducible.
+# The Python pipeline can regenerate these files.
+data/raw/*.csv
+data/processed/*.csv
+
+# Keep placeholder files if present
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# =========================
+# Local SQLite database
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Power BI local/cache files
+# =========================
+*.pbi.local
+*.pbit
+*.pbip
+# Power BI backup/temp files
+~$*.pbix
+
+# =========================
+# Archives
+# =========================
+*.zip
+*.7z
+*.rar
